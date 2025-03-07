@@ -105,7 +105,7 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <p>
   <img src="https://github.com/phildaration/Documentation/blob/main/10101010.jpg"75%" width="100%"/>
 <br/>
-  <img src="https://i.imgur.com/zdhWXNx.png" height="75%" width="100%" />
+  <img src="https://github.com/phildaration/Documentation/blob/main/11_11_11_11.jpg" height="75%" width="100%" />
 </p>
 <br/>
 <h3 align="center">Install osTicket v1.15.8</h3>
@@ -116,13 +116,13 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <p>
 	Extract and copy the “upload” folder INTO c:\inetpub\wwwroot:
 </p>
-	<img src="https://i.imgur.com/0MUJLMU.png" height="75%" width="100%" />
-	<img src="https://i.imgur.com/1h9goM8.png" height="75%" width="100%" />
+	<img src="https://github.com/phildaration/Documentation/blob/main/12_12_12_12_12%20.jpg" height="75%" width="100%" />
+	<img src="https://github.com/phildaration/Documentation/blob/main/13_13_13_13.jpg" height="75%" width="100%" />
 <p>
 	Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”:
 </p>
 <p>
-	<img src="https://i.imgur.com/pDikkgq.png" height="75%" width="100%" />
+	<img src="https://github.com/phildaration/Documentation/blob/main/14_14_14_14.jpg" height="75%" width="100%" />
 </p>
 <br />
 <br />
@@ -132,13 +132,13 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 	Go to sites -> Default -> osTicket:
 </p>
 <p>
-	<img src="https://i.imgur.com/QeWNlG3.png" height="75%" width="100%" />
+	<img src="https://github.com/phildaration/Documentation/blob/main/15_15_15_15_15_15.jpg" height="75%" width="100%" />
 </p>
 <p>
 	On the right, click “Browse *:80”:
 </p>
 <p>
-	<img src="https://i.imgur.com/3iXhNbi.png" height="75%" width="100%"/>
+	<img src="https://github.com/phildaration/Documentation/blob/main/16_16_16_16_16.jpg" height="75%" width="100%"/>
 </p>
 <br />
 <br />
@@ -151,7 +151,7 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 	Double-click PHP Manager:
 </p>
 <p>
-	<img src="https://i.imgur.com/LFKo5Hs.png" height="75%" width="100%" />
+	<img src="https://github.com/phildaration/Documentation/blob/main/17_17_17_17_17.jpg" height="75%" width="100%" />
 </p>
 <p>
 	Click “Enable or disable an extension”.
@@ -166,7 +166,7 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 	Enable: php_opcache.dll:
 </p>
 <p>
-	<img src="https://imgur.com/a/nrQo0kz" height="75%" width="100%"/>
+	<img src="https://github.com/phildaration/Documentation/blob/main/18_18_18_18_18.jpg" height="75%" width="100%"/>
 </p>
 <br />
 <br />
@@ -259,32 +259,5 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 </p>
 <p>Click “Install Now!”</p>
 <p>Congratulations, hopefully it is installed with no errors!</hp>
-<p>
-	<img src="https://i.imgur.com/J5omRoE.png" height="75%" width="100%" />
-</p>
-<br />
-<br />
-<h3 align="center">Clean up</h3>
-<br />
-<p>
-	Delete: C:\inetpub\wwwroot\osTicket\setup:
-</p>
-<p>
-	<img src="https://i.imgur.com/eg0ZPG3.png" height="75%" width="100%" />
-</p>
-<p>
-	Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php:
-</p>
-<p>
-	<img src="https://i.imgur.com/n6k46XL.png" height="75%" width="100%" />
-</p>
-<br />
-<br />
-<h3 align="center">Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)</h3>
-<br />
-<p>
-	<img src="https://i.imgur.com/8wvWH0H.jpg" height="75%" width="100%" />
-</p>
-<br />
-<br />
+
 <h3 align="center"> Congrats, You've Finished Installing osTicket.</h3>
