@@ -33,21 +33,21 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <br />
 </p>
 <p>
-	<img src="https://i.imgur.com/eBi5k2l.png" height="75%" width="100%" />
+	<img src="https://github.com/phildaration/Documentation/blob/main/111111111.jpg"75%" width="100%" />
 </p>
 <p>
 <h3 align="center">Now, create a Windows 10 Virtual Machine (VM), typically with 2-4 Virtual CPUs. For username and password, it can be anything as we'll be using this info to remote in with our main computer. When creating the Virtual Machine (VM), allow Azure to create a new Virtual Network (Vnet):</h3>
 <br />
 </p>
 <p>
-	<img src="https://i.imgur.com/dEF1c7h.png" height="75%" width="100%" />
+	<img src="https://github.com/phildaration/Documentation/blob/main/222222222.jpg" height="75%" width="100%" />
 </p>
 <br />
 <br />
 <h3 align="center">Open your Remote Desktop Connection app on your computer and connect to your Virtual Machine that was created in Azure. </h3>
 <br />
 <p>
-	<img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/2e71fd86-4198-47aa-aa1a-d0aed1b8e0eb"/>
+	<img src="https://github.com/phildaration/Documentation/blob/main/33333333.jpg"/>
 	
 
 </p>
@@ -56,14 +56,14 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <h3 align="center">Now we need to install / Enable IIS in Windows. Go to your Search Bar > Type "Control Panel" > Click "Programs" > "Turn Windows features on or off" > Scroll down to "Internet Information Services (IIS).</h3>
 <br />
 <p>
-	<img src="https://i.imgur.com/iB0DDRd.png" height="75%" width="100%" />
+	<img src="https://github.com/phildaration/Documentation/blob/main/4444444.jpg"75%" width="100%" />
 </p>
 <br />
 <br />
 <h3 align="center">Once clicked, find the "Internet Information Services" expand it and then expand the "World Wide Web" tab. Afterward, expand the application Developer tab. Finally check the "CGI" button & press Ok. You will need CGI to download the PHP Manager. The PHP manager is a back-end web programming language that allows osTicket to run off a web browser.</h3>
 <br />
 <p>
-  <img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/a6af9c35-e10c-4d7e-b2c8-30ffbe128f08" height="75%" width="100%"/>
+  <img src="https://github.com/phildaration/Documentation/blob/main/55555555.jpg" height="75%" width="100%"/>
 </p>
 <br />
 <h3 align="center">Install PHP Manager</h3>
@@ -71,7 +71,7 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <p>
 <h3 align="center">Download the PHP manager file, and agree with all the terms. We've now downloaded the PHP manager into our operating system.</h3>
 <p>
-  <img src="https://i.imgur.com/pmwpPEu.png"height="75%" width="100%"/>
+  <img src="https://github.com/phildaration/Documentation/blob/main/6666666.jpg"height="75%" width="100%"/>
 </p>
 <br/>
 <h3 align="center">Install Rewrite Module</h3>
@@ -79,7 +79,7 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <p>
 <h3 align="center">Download the Rewrite Module file, agree with all the terms and it should now be installed onto the Computer.</h3>
 <p>
-  <img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/28cf2dd0-d39e-45f8-a01b-61aec6657228"height="75%" width="100%"/>
+  <img src="https://github.com/phildaration/Documentation/blob/main/7777777.jpg"height="75%" width="100%"/>
 </p>
 <br/>
 <h3 align="center">CREATE DIRECTORY C:\PHP</h3>
@@ -88,7 +88,7 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <h3 align="center"> Open File Explorer, type, "C:\" in the search bar, Right-click and create a new folder called, "PHP". Download php-7.3.8-nts-Win32-VC15-x86.zip from<a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> Files You Need to Download</a>, Extract it by going to where you download the file, Right-click the PHP 7.3.8 file and press extract to the PHP Folder you just created.
 </h3>
 <p>
-  <img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/18746085-a3cf-4f1f-b0d5-5cd73f969319"height="75%" width="100%"/>
+  <img src="https://github.com/phildaration/Documentation/blob/main/888888.jpg"height="75%" width="100%"/>
 </p>
 <br/>
 <h3 align="center">VC_REDIST DOWNLOAD</h3>
@@ -96,14 +96,14 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <h3 align="center"> Download and install VC_Redist, Agree with any terms and agreements and finish installing.
 </h3>
 <p>
-  <img src="https://i.imgur.com/Gx8ryBV.png"75%" width="100%"/>
+  <img src="https://github.com/phildaration/Documentation/blob/main/999999.jpg"75%" width="100%"/>
 </p>
 <br/>
 <h3 align="center">DOWNLOAD MySQL </h3>
 <h3 align="center"> Download and install MySQL, Agree with any terms and agreements up until you get to the password portion. Here you can create a username and password for the database that you'll be using to store the Ticket Information used in osTicket. 
 </h3>
 <p>
-  <img src="https://i.imgur.com/IVpLg40.png"75%" width="100%"/>
+  <img src="https://github.com/phildaration/Documentation/blob/main/10101010.jpg"75%" width="100%"/>
 <br/>
   <img src="https://i.imgur.com/zdhWXNx.png" height="75%" width="100%" />
 </p>
